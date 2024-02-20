@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    height: calc(100vh);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(45deg, #961531, lightgray, #961531);
+}
+
+#header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: #961531;
+    background-color: white;
+    color: 961531;
+    height: 60px;
+    width: 100vw;
+    font-size: 42px;
+}
+
+#new-book-btn {
+    border: 2px solid #961531;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    background-color: white;
+    color: #961531;
+    cursor: pointer;
+}
+
+#new-book-btn:hover {
+    background-image: linear-gradient(135deg, #961531, lightgray, #961531);
+    color: white;
+}
+
+#close-btn {
+    border: 2px solid #961531;
+    border-radius: 10px;
+    background-color: white;
+    color: #961531;
+    cursor: pointer;
+}
+
+#add-btn:hover {
+    background-image: linear-gradient(135deg, #961531, lightgray, #961531);
+    color: white;
+}
+
+#add-btn {
+    border: 2px solid #961531;
+    border-radius: 10px;
+    background-color: white;
+    color: #961531;
+    cursor: pointer;
+}
+
+#close-btn:hover {
+    background-image: linear-gradient(135deg, #961531, lightgray, #961531);
+    color: white;
+}
+
+dialog {
+    background-image: linear-gradient(45deg, #961531, lightgray, #961531);
+    color: white;
+    font-weight: bold;
+}
+
+form p {
+    color: white;
+}
+
+input {
+    border: none;
+}
+
+#libraryContainer {
+    margin-top: 20px;
+    align-items: center;
+    justify-items: center;
+    width: 80vw;
+    min-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 15px;
+    column-gap: 15px;
+}
+
+.gridItem {
+    height: 270px;
+    min-width: 200px;
+    background-color: #040838;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding-top: 10px;
+    color: white;
+}
+
+.titleText {
+    color: gold;
+    font-size: 32px;
+    margin-bottom: 1px;
+    max-width: 160px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.authorText {
+    margin-bottom: -7px;
+}
+
+.checkbox {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: lightgray;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkboxPara {
+    background-color: green;
+    color: white
+}
+
+.delete-btn {
+    border: none;
+    background-color: #961531;
+    color: white
+}

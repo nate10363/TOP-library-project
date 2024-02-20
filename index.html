@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Ancient Library of Wan Shi Tong</h1>
+    </div>
+
+    <main>
+
+        <dialog>
+            <button id="close-btn" autofocus>Close</button>
+            <form action="">
+                <label for="title">Title <input type="text" id="title" maxlength="19"></label><br>
+                <label for="author">Author <input type="text" id="author"></label><br>
+                <label for="numpages">Number of Pages <input type="number" id="numpages"></label><br>
+                <label for="read">Read?  <input type="checkbox" id="read" placeholder="yes or no"></label><br>
+                <button type="button" id="add-btn">ADD BOOK</button>
+            </form>
+        </dialog>
+        <button id="new-book-btn">NEW BOOK</button><br>
+        <!-- <button id="console">Log Library</button><br> -->
+
+        <div id="libraryContainer">
+           
+        </div>
+
+
+    </main>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
